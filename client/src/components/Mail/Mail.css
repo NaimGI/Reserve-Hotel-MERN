@@ -1,0 +1,41 @@
+.Mail {
+    background-color: #003580;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 50px 0px;
+}
+
+.MailDesc {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+
+.MailContent>input {
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    margin-top: 20px;
+    padding: 7px 7px;
+}
+
+.MailContent>button {
+    padding: 10px;
+    background-color: #1977fd;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 60px;
+    width: 70px;
+    border: none;
+    margin-left: 20px;
+    font-weight: 500;
+
+}

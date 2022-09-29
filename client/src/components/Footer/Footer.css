@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    flex-direction: colume;
+    width: 100%;
+    width: 1024px;
+    font-size: 18px;
+}
+
+.footerList {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.fList {
+    list-style: none;
+    color: #003580;;
+}

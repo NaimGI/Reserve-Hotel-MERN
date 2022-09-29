@@ -1,0 +1,46 @@
+.PropFeatured {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.propItem {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.propImg {
+    object-fit: cover;
+}
+
+.RatingProp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.PriceProp {
+    font-weight: 500;
+}
+
+.NameProp {
+    font-size: 20;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.RatingProp .propBtn {
+    padding: 7px 10px;
+    border-radius: 10px;
+    background-color: #003580;
+    color: white;
+    border: 0;
+    margin-right: 20px;
+}
